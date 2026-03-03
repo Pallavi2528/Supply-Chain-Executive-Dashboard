@@ -1,6 +1,5 @@
-# 📦 Supply Chain Executive Dashboard (Power BI)
 
-## 📌 Project Overview
+##  Project Overview
 
 This project analyzes global supply chain performance using **Power BI** to provide actionable insights into revenue, manufacturing costs, defect rates, logistics efficiency, and product performance.
 
@@ -8,7 +7,7 @@ The dashboard helps stakeholders monitor operational efficiency, cost management
 
 ---
 
-## 🛠 Tools & Technologies Used
+## Tools & Technologies Used
 
 - Power BI  
 - MS Excel  
@@ -18,7 +17,7 @@ Project Level: Intermediate
 
 ---
 
-## 📊 Dataset Information
+##  Dataset Information
 
 The dataset contains detailed supply chain lifecycle data including:
 
@@ -35,52 +34,52 @@ The dataset contains detailed supply chain lifecycle data including:
 
 ---
 
-## 📈 Key Performance Indicators (KPIs)
+##  Key Performance Indicators (KPIs)
 
-### 1️⃣ Total Revenue
+### Total Revenue
 ```DAX
 Total Revenue = SUM('supply_chain_data'[Revenue generated])
 ```
 
-### 2️⃣ Total Manufacturing Cost
+### Total Manufacturing Cost
 ```DAX
 Total Cost = SUM('supply_chain_data'[Manufacturing costs])
 ```
 
-### 3️⃣ Average Defect Rate
+###  Average Defect Rate
 ```DAX
 Avg Defect Rate = AVERAGE('supply_chain_data'[Defect rates])
 ```
 
-### 4️⃣ Total Products Sold
+### Total Products Sold
 ```DAX
 Total Items Sold = SUM('supply_chain_data'[Number of products sold])
 ```
 
 ---
 
-## 📊 Dashboard Visualizations
+##  Dashboard Visualizations
 
-### 🌍 Map – Geographic Revenue Distribution
+### Map – Geographic Revenue Distribution
 - Location-based revenue analysis
 - Bubble size represents Total Revenue
 - Identifies high-performing cities
 
-### 🍩 Donut Chart – Shipping Cost by Carrier
+###  Donut Chart – Shipping Cost by Carrier
 - Compares shipping costs across Carrier A, B, and C
 - Identifies most expensive logistics partner
 
-### 📊 Clustered Bar Chart – Cost vs Revenue by Product Type
+### Clustered Bar Chart – Cost vs Revenue by Product Type
 - Compares Manufacturing Cost and Revenue
 - Evaluates product profitability
 
-### 📈 Line Chart – Lead Time Analysis by SKU
+### Line Chart – Lead Time Analysis by SKU
 - Tracks lead time variations
 - Identifies supply chain delays and bottlenecks
 
 ---
 
-## 🎛 Interactive Filters (Slicers)
+## Interactive Filters (Slicers)
 
 - Location
 - Product Type
@@ -90,7 +89,7 @@ These slicers allow dynamic and interactive analysis.
 
 ---
 
-## 🏗 Dashboard Creation Process
+## Dashboard Creation Process
 
 ### Step 1: Data Preparation
 - Imported CSV file into Power BI
@@ -114,7 +113,7 @@ These slicers allow dynamic and interactive analysis.
 
 ---
 
-## 🎯 Key Insights
+## Key Insights
 
 - Identified top-performing cities by revenue.
 - Compared manufacturing cost vs revenue to evaluate profitability.
@@ -124,7 +123,7 @@ These slicers allow dynamic and interactive analysis.
 
 ---
 
-## 🚀 Business Impact
+##  Business Impact
 
 This dashboard enables:
 
@@ -136,13 +135,5 @@ This dashboard enables:
 
 ---
 
-## 📷 Dashboard Preview
 
-(Add your dashboard screenshot here)
 
----
-
-## 👩‍💻 Author
-
-Pallavi Lad  
-Aspiring Data Analyst | Power BI Enthusiast  
